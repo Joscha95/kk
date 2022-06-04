@@ -1,12 +1,50 @@
 title: Site
-
-sections:
-  drafts:
-    type: pages
-    status: drafts
-  unlisted:
-    type: pages
-    status: unlisted
-  published:
-    type: pages
-    status: listed
+fields:
+  quellen:
+    width: 1/2
+    type: tags
+  typen:
+    width: 1/2
+    type: tags
+  kulturesktoren:
+    width: 1/2
+    type: structure
+    fields:
+      name:
+        type: text
+      color:
+        type: text
+  places:
+    type: structure
+    fields:
+      id:
+        type: number
+        step: 1
+      institution:
+        type: text
+      kultursektor:
+        type: select
+        options: query
+        query:
+          fetch: site.kulturesktoren.toStructure
+          text: "{{ structureItem.name }}"
+          value: "{{ structureItem.name }}"
+      stadt:
+        type: text
+      plz:
+        type: number
+        step: 1
+      adresse:
+        type: text
+      lat:
+        type: text
+      lon:
+        type: text
+      typ:
+        type: select
+        options: query
+        query: site.typen.split(',')
+      quelle:
+        type: select
+        options: query
+        query: site.quellen.split(',')

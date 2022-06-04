@@ -1,1 +1,126 @@
-Title: Site Title
+Title: Kulturkarte Detmold
+
+----
+
+Quellen: selbst, Stadt Detmold, Google Maps
+
+----
+
+Typen: A, B, C
+
+----
+
+Kulturesktoren:
+
+-
+  name: Parks/öffentliche Plätze
+  color: green
+-
+  name: Bildungseinrichtungen
+  color: indigo
+-
+  name: 'Kinder- und Jugendarbeit'
+  color: lightblue
+-
+  name: Kleingartenvereine
+  color: mint
+-
+  name: Religiöse Einrichtungen/Vereinigungen
+  color: ""
+-
+  name: 'Musik- und Gesangsvereine'
+  color: ""
+
+----
+
+Places:
+
+-
+  id: 1
+  institution: Kronenplatz
+  kultursektor: Parks/öffentliche Plätze
+  stadt: Detmold
+  plz: 32756
+  adresse: /
+  lat: "51.941381"
+  lon: "8.874360"
+  typ: C
+  quelle: selbst
+-
+  id: 2
+  institution: Schlosspark
+  kultursektor: Parks/öffentliche Plätze
+  stadt: Detmold
+  plz: 32756
+  adresse: /
+  lat: "51.936206"
+  lon: "8.879500"
+  typ: C
+  quelle: selbst
+-
+  id: 3
+  institution: Palaisgarten
+  kultursektor: Parks/öffentliche Plätze
+  stadt: Detmold
+  plz: 32756
+  adresse: /
+  lat: "51.929580"
+  lon: "8.877424"
+  typ: C
+  quelle: selbst
+-
+  id: 4
+  institution: Gorkipark
+  kultursektor: Parks/öffentliche Plätze
+  stadt: Detmold
+  plz: 32756
+  adresse: /
+  lat: "51.938722"
+  lon: "8.879413"
+  typ: C
+  quelle: selbst
+-
+  id: 5
+  institution: Kaiser-Wilhelm Platz
+  kultursektor: Parks/öffentliche Plätze
+  stadt: Detmold
+  plz: 32756
+  adresse: /
+  lat: "51.937373"
+  lon: "8.873302"
+  typ: C
+  quelle: selbst
+-
+  id: 5
+  institution: Marktplatz
+  kultursektor: Parks/öffentliche Plätze
+  stadt: Detmold
+  plz: 32756
+  adresse: /
+  lat: "51.935114"
+  lon: "8.878996"
+  typ: C
+  quelle: selbst
+-
+  id: 6
+  institution: Bismarckhain
+  kultursektor: Parks/öffentliche Plätze
+  stadt: Detmold
+  plz: 32756
+  adresse: /
+  lat: "51.928952"
+  lon: "8.871306"
+  typ: C
+  quelle: Google Maps
+
+
+
+
+
+
+
+
+
+
+
+
