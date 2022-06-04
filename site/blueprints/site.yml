@@ -17,7 +17,7 @@ fields:
   places:
     type: structure
     fields:
-      id:
+      no:
         type: number
         step: 1
       institution:

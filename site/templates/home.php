@@ -10,7 +10,7 @@
 <div id="overlays">
   <?php foreach ($site->places()->toStructure() as $place): ?>
     <div class="place" data-lat=<?=$place->lat()?> data-lon=<?=$place->lon()?> >
-      <div class="marker" style="background-color:<?=$sectors->findBy('name',$place->kultursektor()->value())->color()?>"><span><?=$place->id()?></span></div>
+      <div class="marker" style="background-color:<?=$sectors->findBy('name',$place->kultursektor()->value())->color()?>"><span><?=$place->no()?></span></div>
       <div class="info">
         <?=$place->institution()?><br>
         <?=$place->adresse()?><br>
